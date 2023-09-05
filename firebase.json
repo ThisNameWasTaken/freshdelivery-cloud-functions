@@ -1,0 +1,31 @@
+{
+  "functions": [
+    {
+      "source": "tf-3x",
+      "codebase": "tf-3x"
+    },
+    {
+      "source": "tf-1x",
+      "codebase": "tf-1x"
+    }
+  ],
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "emulators": {
+    "auth": {
+      "port": 9099
+    },
+    "functions": {
+      "port": 5001
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "ui": {
+      "enabled": true,
+      "port": 5002
+    }
+  }
+}
