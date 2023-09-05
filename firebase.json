@@ -1,14 +1,4 @@
 {
-  "functions": [
-    {
-      "source": "tf-3x",
-      "codebase": "tf-3x"
-    },
-    {
-      "source": "tf-1x",
-      "codebase": "tf-1x"
-    }
-  ],
   "firestore": {
     "rules": "firestore.rules",
     "indexes": "firestore.indexes.json"

@@ -17,6 +17,8 @@
     "@tensorflow-models/toxicity": "^1.2.2",
     "@tensorflow/tfjs": "^1.7.4",
     "@tensorflow/tfjs-node": "^3.18.0",
+    "@tensorflow/tfjs-node3": "npm:@tensorflow/tfjs-node@^3.20.0",
+    "@tensorflow/tfjs3": "npm:@tensorflow/tfjs@^3.20.0",
     "google-translate-api": "^2.3.0",
     "seedrandom": "^2.4.4",
     "firebase-admin": "^10.0.2",
